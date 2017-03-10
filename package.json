@@ -1,0 +1,47 @@
+{
+  "name": "starting-point",
+  "version": "1.0.0",
+  "description": "This is a starting point for a react web app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "check-node-version --node '>= 6.7.0' && bin/setup && webpack",
+    "build-watch": "check-node-version --node '>= 6.7.0' && bin/setup && webpack -w",
+    "build-css": "node-sass -w assets/stylesheets/style.scss -o public/stylesheets",
+    "start": "check-node-version --node '>= 6.7.0' && bin/setup && node --harmony server/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkatz93/starting-point.git"
+  },
+  "author": "Danielle Katz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkatz93/starting-point/issues"
+  },
+  "homepage": "https://github.com/dkatz93/starting-point#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "body-parser": "^1.17.1",
+    "chalk": "^1.1.3",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "pg": "^6.1.4",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "sequelize": "^3.30.2",
+    "volleyball": "^1.4.1",
+    "webpack": "^2.2.1"
+  }
+}
