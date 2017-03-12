@@ -8,7 +8,7 @@ const session = require('express-session')
 const bodyParser = require('body-parser')
 const volleyball = require('volleyball')
 const api = require('./api')
-const db = require('./db')
+const db = require('../db')
 const path = require('path');
 const passport = require('passport')
 
@@ -16,9 +16,9 @@ const passport = require('passport')
 
 app.use(volleyball)
 
-app.use(session({
-	secret: 'ihopethisworks'
-}))
+// app.use(session({
+// 	secret: 'ihopethisworks'
+// }))
 
 app.use(bodyParser.urlencoded({ extended:true})); 
 app.use(bodyParser.json());
