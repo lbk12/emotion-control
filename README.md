@@ -12,7 +12,7 @@ Create a file folder on your local machine and ```git init ```
 
 ```git merge start/master```
 
-##All you have to do before coding is:
+### All you have to do before coding is:
 
 Change the database name from START in ```db/index.js``` and run ```createdb``` in the command line with the same database name to create the database on your computer
 
