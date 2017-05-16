@@ -16,4 +16,4 @@ Create a file folder on your local machine and ```git init ```
 
 Change the database name from START in ```db/index.js``` and run ```createdb``` in the command line with the same database name to create the database on your computer
 
-After that, run ```npm install``` to get all of the dependencies then run ```npm start```
+After that, run ```npm install``` to get all of the dependencies then run ```npm start```. In a separate tab of your terminal, run ```npm run build-css``` to compile the SASS files into CSS.
