@@ -2,7 +2,7 @@
 
 This is a starting point for a react web app.
 
-##Download the starting-point into your project:##
+## Download the starting-point into your project:
 
 Create a file folder on your local machine and ```git init ```
 
