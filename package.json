@@ -1,5 +1,5 @@
 {
-  "name": "starting-point",
+  "name": "emotion-control",
   "version": "1.0.0",
   "description": "This is a starting point for a react web app.",
   "main": "index.js",
@@ -10,16 +10,7 @@
     "build-css": "node-sass -w assets/stylesheets -o public/stylesheets",
     "start": "webpack -w & nodemon server/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkatz93/starting-point.git"
-  },
-  "author": "Danielle Katz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dkatz93/starting-point/issues"
-  },
-  "homepage": "https://github.com/dkatz93/starting-point#readme",
+  "author": "Lauren Katz",
   "dependencies": {
     "axios": "^0.15.3",
     "babel": "^6.23.0",
