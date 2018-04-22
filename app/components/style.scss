@@ -1,0 +1,36 @@
+.home-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+}
+.header-section{
+  background: white;
+    padding: 5px;
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: #5E5E5E;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+.content-section{
+    padding: 5px;
+    width: 90%;
+    height: auto;
+    line-height: 150px;
+    color: white;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border-color: white;
+    text-align: center;
+}
+.entry{
+  color: white;
+  margin-top: 20px;
+}

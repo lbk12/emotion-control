@@ -1,18 +1,20 @@
 'use strict'
-import React from 'react'
-import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
-import {render} from 'react-dom'
-import {Provider} from 'react-redux'
-import store from './store';
 
+import store from './store';
 import app from './components/app'
+
+import React from 'react';
+import {render} from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Provider } from 'react-redux'
 
 render(
 	<Provider store={store}>
-	<Router history = {browserHistory}>
-	<Route path="/" component={app}>
-	</Route>
-	</Router>
+		<Router>
+			<Switch>
+				<Route exact path="/" component={app}/>
+			</Switch>
+		</Router>
 	</Provider>,
 	document.getElementById('main')
 )
