@@ -8,7 +8,6 @@ class Content extends React.Component{
 	render() {
     var entry= this.props.entry
     var sc= sentiment(entry);
-    console.log(sc.score)
     var color= "#08D70F"
     if(sc.score ==0){
       color = "#FEE501"
